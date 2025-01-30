@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Timetable</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b4e952;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        /* Styling for BREAK */
+        .break {
+            background-color:#eebbee;  /* Light red background */
+            color: #721c24;             /* Dark red text color */
+        }
+
+        /* Styling for LUNCH BREAK */
+        .lunch-break {
+            background-color: #eebbee;  /* Light yellow background */
+            color: #856404;             /* Dark yellow text color */
+        }
+       
+        /* Hover effect for rows */
+        tr:hover td {
+            background-color: #62d6eb;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>B.Tech Timetable - 4th Semester</h1>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>DAYS\Time</th>
+                    <th>9:00-9:50</th>
+                    <th>9:50-10:50</th>
+                    <th>10:50-11:00</th>
+                    <th>11:00-11:55</th>
+                    <th>11:55-12:50</th>
+                    <th>12:50-1:50</th>
+                    <th>1:50-2:30</th>
+                    <th>2:30-3:40</th>
+                    <TH>3:40-4:30</TH>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 1st Period -->
+                <tr>
+                    <td>MONDAY</td>
+                    <td>Maths</td>
+                    <td>OS</td>
+                    <td rowspan="6" >BREAK</td>
+                    <td colspan="2">CDC Lab</td>
+                    <td rowspan="6">LUNCH BREAK</td>
+                    <td>SE</td>
+                    <td>DBMS</td>
+                    <td>MEFA</td>
+                </tr>
+
+                <!-- 2nd Period -->
+                <tr>
+                    <td>TUESDAY</td>
+                    <td colspan="2">CDC Lab</td>
+                    <td>DT&I</td>
+                    <td>SE</td>
+                    <td>MATHS</td>
+                    <td>OS</td>
+                    <td>DBMS</td>
+                </tr>
+
+                
+
+                <!-- 3rd Period -->
+                <tr>
+                    <td>WEDNESDAY</td>
+                    <td>OS</td>
+                    <td>Maths</td>
+                    <td>DBMS</td>
+                    <td>OS</td>
+                    <td>FSD-1</td>
+                    <td>MEFA</td>
+                    <td>SE</td>
+                </tr>
+
+                <!-- 4th Period -->
+                <tr>
+                    <td>THURSDAY</td>
+                    <td colspan="2">OS/DBMS LAB</td>
+                    <td>Maths</td>
+                    <td>DBMS</td>
+                    <td colspan="3">FSD-1 LAB</td>
+                </tr>
+
+                
+
+                <!-- 5th Period -->
+                <tr>
+                    <td>FRIDAY</td>
+                    <td colspan="2">OS/DBMS LAB</td>
+                    <td colspan="2">CDC Lab</td>
+                    <td>DBMS</td>
+                    <td>OS</td>
+                    <td>SE</td>
+                </tr>
+
+                <tr>
+                    <td>SATURDAY</td>
+                    <td>SE</td>
+                    <td>SS</td>
+                    <td>MEFA</td>
+                    <td>OS</td>
+                    <td>FSD-1</td>
+                    <td colspan="2">CDC Lab</td>
+                </tr>
+
+                
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
